@@ -3,6 +3,7 @@ import React from "react";
 import Bestseller from "../../components/Bestseller";
 import LatestPosts from "../../components/LatestPosts";
 import Footer from "../../components/Footer";
+import './Home.css';
 
 
 const Home = () => {

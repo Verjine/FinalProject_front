@@ -49,7 +49,7 @@ function Register() {
             <button className="btn">Register</button>
             <div className="text">
           <p>
-          Already have an account ?<span>Login</span></p>
+          Already have an account ?<Link to = "/login"> <span> Login</span> </Link></p>
           </div>
           </form>
         </div>

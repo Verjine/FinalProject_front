@@ -1,4 +1,4 @@
-.register {
+.login {
   margin-top: 3%;
   max-width: 900px;
   width: 100%;
@@ -11,32 +11,26 @@
   box-shadow: 1px 3px 10px #e9ecef;
   background-color: white;
 }
-.register span {
-  color: #adb5bd;
-  flex-direction: row;
-}
-.register .col-1 {
-  margin: auto;
-  padding: 3em 0;
-}
-.register .col-2 {
+.login .col-3 {
   width: 300px;
 }
-.register .col-2 img {
+.login .col-3 img {
   width: 100%;
 }
-
-form {
+.login .login_form {
   max-width: 320px;
   width: 100vw;
   margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-form .input {
+.login .login_form .lg_input {
   padding: 15px;
   border: 2px solid gainsboro;
   width: 100%;
 }
-form .btn {
+.login .lg_btn {
   background-color: #FF8F52;
   color: white;
   font-size: 20px;
@@ -44,14 +38,4 @@ form .btn {
   border: 2px solid;
   padding: 12px;
   width: 100%;
-}
-form .text span {
-  color: #FF8F52;
-  list-style-type: none;
-}
-
-.flex {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}/*# sourceMappingURL=register.css.map */
+}/*# sourceMappingURL=Login.css.map */

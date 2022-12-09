@@ -7,7 +7,7 @@ const menu = () => {
   return (
     <>
       <div className="navbar">
-        <h1><span>Flower</span>Shop</h1>
+        <h1 > <Link to  = "/" className="shop" >  <span>Flower</span>Shop</Link></h1>
         <nav>
           <ul>
             <li>
@@ -15,9 +15,6 @@ const menu = () => {
             </li>
             <li>
               <Link to="/shop">Shop</Link>
-            </li>
-            <li>
-              <Link to="/blog">Blog</Link>
             </li>
             <li>
               <Link to="/about">About</Link>

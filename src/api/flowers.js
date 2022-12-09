@@ -1,132 +1,66 @@
- const furniture = [{
-    title: "Living Room",
-    price: 1000,
-    imgUrl: "images/bedroom1.jpg",
-    categories: ["living room"]
+ const flower = [{
+    title: "Daisy",
+    price: 5,
+    imgUrl: "images/Rectangle 58.jpg",
+   
 },
-
 {
-    title: "Living Room",
-    price: 1000,
-    imgUrl: "images/bedroom2.jpg",
-    categories: ["living room"]
+    title: "Sun flower",
+    price: 7,
+    imgUrl: "images/Rectangle 58 (1).jpg",
 },
-
 {
-    title: "Living Room",
-    price: 1000,
-    imgUrl: "images/bedroom3.jpg",
-    categories: ["living room"]
+    title: "White Rose",
+    price: 10,
+    imgUrl: "images/Rectangle 58 (2).jpg",
+  
 },
-
 {
-    title: "Kitchen",
-    price: 1000,
-    imgUrl: "images/kitchen1.jpg",
-    categories: ["kitchen"]
+    title: "Periwinkle",
+    price: 7,
+    imgUrl: "images/Rectangle 58 (3).jpg",
 },
-
 {
-    title: "Kitchen",
-    price: 1000,
-    imgUrl: "images/kitchen2.jpg",
-    categories: ["kitchen"]
-},
+    title: "Peony",
+    price: 5,
+    imgUrl: "images/peony.jpeg",
 
+},
 {
-    title: "Kitchen",
-    price: 1000,
-    imgUrl: "images/kitchen3.jpg",
-    categories: ["kitchen"]
+    title: "Gerbera",
+    price: 7,
+    imgUrl: "images/gerbera.jpg",
 },
-
 {
-    title: "Dinning Room",
-    price: 1000,
-    imgUrl: "images/dinningRoom1.jpg",
-    categories: ["dinning room"]
+    title: "Freesia",
+    price: 6,
+    imgUrl: "images/freesia.jfif",
 },
-
 {
-    title: "Dinning Room",
-    price: 1000,
-    imgUrl: "images/dinningRoom2.jpg",
-    categories: ["dinning room"]
+    title: "Water Lily",
+    price: 16,
+    imgUrl: "images/waterlili.jpg",
 },
-
 {
-    title: "Dinning Room",
-    price: 1000,
-    imgUrl: "images/dinningRoom3.jpg",
-    categories: ["dinning room"]
-},
+    title: "Daffodil",
+    price: 7,
+    imgUrl: "images/daffodil.jpg",
 
+},
 {
-    title: "Office",
-    price: 1000,
-    imgUrl: "images/office1.jpg",
-    categories: ["office"]
+    title: "Carnation",
+    price: 7,
+    imgUrl: "images/Rectangle 58 (3).jpg",
 },
-
 {
-    title: "Office",
-    price: 1000,
-    imgUrl: "images/office2.jpg",
-    categories: ["office"]
+    title: "Lisianthus",
+    price: 7,
+    imgUrl: "images/lisianthus.jpg",
 },
-
 {
-    title: "Office",
-    price: 1000,
-    imgUrl: "images/office3.jpg",
-    categories: ["office"]
-},
-
-{
-    title: "Bedroom",
-    price: 1000,
-    imgUrl: "images/bedroom1.jpg",
-    categories: ["bedroom"]
-},
-
-{
-    title: "Bedroom",
-    price: 1000,
-    imgUrl: "images/bedroom2.jpg",
-    categories: ["bedroom"]
-},
-
-{
-    title: "Bedroom",
-    price: 1000,
-    imgUrl: "images/bedroom3.jpg",
-    categories: ["bedroom"]
-},
-
-{
-    title: "Hallway",
-    price: 1000,
-    imgUrl: "images/hallway1.jpg",
-    categories: ["hallway"]
-},
-
-{
-    title: "Hallway",
-    price: 1000,
-    imgUrl: "images/hallway2.jpg",
-    categories: ["hallway"]
-},
-
-{
-    title: "Hallway",
-    price: 1000,
-    imgUrl: "images/hallway3.jpg",
-    categories: ["hallway"]
-},
-
-
-]
-export default furniture;
-
-
-
+    title: "Tulip",
+    price: 7,
+    imgUrl: "images/tulip.jpg",
+}
+ ]
+ export default flower

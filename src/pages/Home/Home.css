@@ -25,6 +25,9 @@ body {
 .navbar h1 span {
   color: #ff8f52;
 }
+.shop{
+  color: #000;
+}
 
 .icons {
   margin-right: 50px;
@@ -182,6 +185,7 @@ ul li a:hover {
 }
 
 .main_content {
+  width: 1400px;
   display: flex;
   justify-content: space-between;
   background-color: black;
