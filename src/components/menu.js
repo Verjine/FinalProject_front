@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsPersonFill } from "react-icons/bs";
-import { BsCart2 } from "react-icons/bs";
 
 const menu = () => {
   return (
@@ -26,9 +25,9 @@ const menu = () => {
           
            <Link to = "/register"> <BsPersonFill size="25px" color="FF8F52" />{" "}</Link>
           
-          <Link to="">
+          {/* <Link to="">
             <BsCart2 size="25px" color="FF8F52" />{" "}
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

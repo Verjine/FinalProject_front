@@ -1,36 +1,32 @@
 import React from "react";
+import { useState, useContext } from "react";
+import Products from "../../components/Products";
 import Menu from "../../components/menu";
-import { BsCartPlus } from "react-icons/bs";
-import {flower} from '../../api/flowers'
 import Footer from "../../components/Footer";
-import ProductCard from "../ProductCart/ProductCart";
-
+import { CartContext } from "../ProductCart/CartContext";
+import { SlBasket } from "react-icons/sl";
+import Modal from "../../components/Modal";
 const Shop = () => {
+  const cart = useContext(CartContext);
+  const [openModal, setOpenModal] = useState(false)
+
+  const productsCount = cart.items.reduce(
+    (sum, product) => sum + product.quantity,
+    0
+  );
+
   return (
-    <div className="shop">
-      <div>
+    <div>
+      <div className="menu">
         <Menu />
+        <button className="modalBtn" onClick={() => setOpenModal(true)}>
+          <SlBasket /> {productsCount} Items
+        </button>
       </div>
-      <div className="flowers_container">
-        {flower.map((element, id) => (
-          <div className="flw_box" key={id}>
-            <img src={element.imgUrl} alt="" />
-            <h3> {element.title}</h3>
-            <div className="flw_cart"> 
-            <span>{element.price}$</span>
-            {/* <button className='buy' variant="primary" onClick={() => cart.addOneToCart(product.id)}>Add To Cart</button> */}
+      <Modal open={openModal} onClose={() => setOpenModal(false)} />
 
-            
-             <BsCartPlus color=" #ff8f52" />
-            
-            </div>
-
-          </div>
-        ))}
-      </div>
-      <div>
-        <Footer/>
-      </div>
+      <Products />
+      <Footer />
     </div>
   );
 };

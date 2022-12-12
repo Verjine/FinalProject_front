@@ -1,5 +1,4 @@
-import Button from 'react-bootstrap/Button';
-import { CartContext } from "./CartContext";
+import { CartContext } from "../ProductCart/CartContext";
 import { useContext } from "react";
 import { getProductData } from '../../api/flowers';
 
