@@ -14,7 +14,7 @@ function ProductCard(props) {
       <div className="box_info">
         <h3>{product.title}</h3>
         <div className="price">
-          <span>Price {product.price}$</span>
+          <span> {product.price}$</span>
 
           <button
             className="buy"
