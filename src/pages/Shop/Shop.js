@@ -1,9 +1,9 @@
 import React from "react";
 import Menu from "../../components/menu";
 import { BsCartPlus } from "react-icons/bs";
-import flower from '../../api/flowers'
+import {flower} from '../../api/flowers'
 import Footer from "../../components/Footer";
-
+import ProductCard from "../ProductCart/ProductCart";
 
 const Shop = () => {
   return (
@@ -18,9 +18,11 @@ const Shop = () => {
             <h3> {element.title}</h3>
             <div className="flw_cart"> 
             <span>{element.price}$</span>
-            <p>
-              Add to cart <BsCartPlus color=" #ff8f52" />
-            </p>
+            {/* <button className='buy' variant="primary" onClick={() => cart.addOneToCart(product.id)}>Add To Cart</button> */}
+
+            
+             <BsCartPlus color=" #ff8f52" />
+            
             </div>
 
           </div>
